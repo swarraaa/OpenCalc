@@ -2,7 +2,7 @@
 
 OpenCalc is a command-line calculator that performs basic arithmetic operations and also supports paranthesized expressions.
 
-## Installation
+## Install Package
 
 ### Prerequisites
 
@@ -23,6 +23,12 @@ curl -L -H 'User-Agent: Mozilla/5.0' -o OpenCalc-1.0-1.fc39.x86_64.rpm https://g
 
 ```bash
 sudo dnf install ~/Downloads/OpenCalc-1.0-1.fc39.x86_64.rpm
+```
+
+## Uninstall Package
+
+```bash
+sudo dnf remove OpenCalc
 ```
 
 ## Usage
