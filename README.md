@@ -16,13 +16,13 @@ Ensure you have the following installed on your system:
 1. Download the RPM package from GitHub releases
 
 ```bash
-wget https://github.com/swarraaa/OpenCalc/releases/download/v1.0/OpenCalc-1.0-1.fc39.x86_64.rpm
+curl -L -H 'User-Agent: Mozilla/5.0' -o OpenCalc-1.0-1.fc39.x86_64.rpm https://github.com/swarraaa/OpenCalc/releases/download/v1.0/OpenCalc-1.0-1.fc39.x86_64.rpm
 ```
 
 2. Install the RPM package
 
 ```bash
-sudo dnf install -y OpenCalc-1.0-1.fc39.x86_64.rpm
+sudo dnf install ~/Downloads/OpenCalc-1.0-1.fc39.x86_64.rpm
 ```
 
 ## Usage
